@@ -78,7 +78,6 @@ saucedemo-playwright/
 ├── src/
 │   ├── features/       # Gherkin feature files
 │   ├── steps/          # Step definitions
-│   ├── support/        # Hooks, utilities, and helpers
 ├── report/
 │   ├── json/           # JSON test reports
 │   ├── html/           # HTML test reports
