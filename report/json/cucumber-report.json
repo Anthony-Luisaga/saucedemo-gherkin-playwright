@@ -1,0 +1,722 @@
+[
+  {
+    "description": "    As a user of SauceDemo\n    I want to log in to the application\n    So that I can access the product inventory",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-to-saucedemo;succesful-standard-user-login",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Succesful Standard User Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the SauceDemo login page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2025974399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I login with the username \"STANDARD_USER\" and password \"PASSWORD\"",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259722899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should be redirected to the inventory page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13843699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I should see the product list",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6282599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 719068899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 6
+          },
+          {
+            "name": "@standard_user",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-saucedemo;succesful-problem-user-login",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Succesful Problem User Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I am on the SauceDemo login page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 819115200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I login with the username \"PROBLEM_USER\" and password \"PASSWORD\"",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246455500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should be redirected to the inventory page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6612500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I should see the product list",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10354599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 736636899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-saucedemo;succesful-performance-glitch-user-login",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Succesful Performance Glitch User Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I am on the SauceDemo login page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 835965800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I login with the username \"PERFORMANCE_GLITCH_USER\" and password \"PASSWORD\"",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5242428600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be redirected to the inventory page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7488499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I should see the product list",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5215500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1364621400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 20
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-saucedemo;succesful-error-user-login",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Succesful Error User Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I am on the SauceDemo login page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 811775899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I login with the username \"ERROR_USER\" and password \"PASSWORD\"",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 244873200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should be redirected to the inventory page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7700999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I should see the product list",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4514500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 703258700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-saucedemo;succesful-visual-user-login",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Succesful Visual User Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "I am on the SauceDemo login page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 788295500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I login with the username \"VISUAL_USER\" and password \"PASSWORD\"",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 227281399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should be redirected to the inventory page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7980999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I should see the product list",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5726300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 691344399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 34
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-saucedemo;unsuccesful-locked-out-user-login",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Unsuccesful Locked Out User Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 43,
+            "name": "I am on the SauceDemo login page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 799876699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I login with the username \"LOCKED_OUT_USER\" and password \"PASSWORD\"",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215001000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I should remain in the login page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5926800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I should see an error message \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8869600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 693136999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-saucedemo;unsuccesful-login-with-empty-username",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Unsuccesful login with empty username",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "I am on the SauceDemo login page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 810299299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I enter the password \"PASSWORD\"",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83092700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I click the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62694800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "I should remain in the login page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6833699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I should see an error message \"Epic sadface: Username is required\"",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12189999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 701899299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-saucedemo;unsuccesful-login-with-empty-password",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Unsuccesful login with empty password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 57,
+            "name": "I am on the SauceDemo login page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 768861099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "I enter the username \"STANDARD_USER\"",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94992099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "I click the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60227499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "I should remain in the login page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6632799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "I should see an error message \"Epic sadface: Password is required\"",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10648099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 703821899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 55
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-saucedemo;unsuccesful-login-with-empty-username-and-password",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Unsuccesful login with empty username and password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "I am on the SauceDemo login page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 810788300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I click the login button",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85396800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "I should remain in the login page",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7217599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "I should see an error message \"Epic sadface: Username is required\"",
+            "match": {
+              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9201700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 714039600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 63
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-to-saucedemo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login to SauceDemo",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "name": "saucedemo-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cucumber-test": "cucumber-js",
+    "generate-report": "node generate-report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3",
+    "cucumber-html-reporter": "^6.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "playwright": "^1.52.0",
+    "ts-node": "^10.9.2"
+  }
+}
