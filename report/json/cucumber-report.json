@@ -15,11 +15,11 @@
             "line": 8,
             "name": "I am on the SauceDemo login page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+              "location": "tests\\steps\\login.steps.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 2025974399
+              "duration": 10768909000
             }
           },
           {
@@ -28,11 +28,11 @@
             "line": 9,
             "name": "I login with the username \"STANDARD_USER\" and password \"PASSWORD\"",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:30"
+              "location": "tests\\steps\\login.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 259722899
+              "duration": 309358400
             }
           },
           {
@@ -41,11 +41,11 @@
             "line": 10,
             "name": "I should be redirected to the inventory page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:87"
+              "location": "tests\\steps\\login.steps.ts:87"
             },
             "result": {
               "status": "passed",
-              "duration": 13843699
+              "duration": 14689000
             }
           },
           {
@@ -54,11 +54,11 @@
             "line": 11,
             "name": "I should see the product list",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:91"
+              "location": "tests\\steps\\login.steps.ts:91"
             },
             "result": {
               "status": "passed",
-              "duration": 6282599
+              "duration": 9413399
             }
           },
           {
@@ -66,7 +66,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 719068899
+              "duration": 729414699
             }
           }
         ],
@@ -95,11 +95,11 @@
             "line": 15,
             "name": "I am on the SauceDemo login page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+              "location": "tests\\steps\\login.steps.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 819115200
+              "duration": 1587316899
             }
           },
           {
@@ -108,11 +108,11 @@
             "line": 16,
             "name": "I login with the username \"PROBLEM_USER\" and password \"PASSWORD\"",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:30"
+              "location": "tests\\steps\\login.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 246455500
+              "duration": 247005300
             }
           },
           {
@@ -121,11 +121,11 @@
             "line": 17,
             "name": "I should be redirected to the inventory page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:87"
+              "location": "tests\\steps\\login.steps.ts:87"
             },
             "result": {
               "status": "passed",
-              "duration": 6612500
+              "duration": 10149399
             }
           },
           {
@@ -134,11 +134,11 @@
             "line": 18,
             "name": "I should see the product list",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:91"
+              "location": "tests\\steps\\login.steps.ts:91"
             },
             "result": {
               "status": "passed",
-              "duration": 10354599
+              "duration": 12399900
             }
           },
           {
@@ -146,7 +146,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 736636899
+              "duration": 734614799
             }
           }
         ],
@@ -171,11 +171,11 @@
             "line": 22,
             "name": "I am on the SauceDemo login page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+              "location": "tests\\steps\\login.steps.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 835965800
+              "duration": 1025401099
             }
           },
           {
@@ -184,11 +184,11 @@
             "line": 23,
             "name": "I login with the username \"PERFORMANCE_GLITCH_USER\" and password \"PASSWORD\"",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:30"
+              "location": "tests\\steps\\login.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 5242428600
+              "duration": 5240934900
             }
           },
           {
@@ -197,11 +197,11 @@
             "line": 24,
             "name": "I should be redirected to the inventory page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:87"
+              "location": "tests\\steps\\login.steps.ts:87"
             },
             "result": {
               "status": "passed",
-              "duration": 7488499
+              "duration": 8138699
             }
           },
           {
@@ -210,11 +210,11 @@
             "line": 25,
             "name": "I should see the product list",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:91"
+              "location": "tests\\steps\\login.steps.ts:91"
             },
             "result": {
               "status": "passed",
-              "duration": 5215500
+              "duration": 7480200
             }
           },
           {
@@ -222,7 +222,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1364621400
+              "duration": 1354252000
             }
           }
         ],
@@ -247,11 +247,11 @@
             "line": 29,
             "name": "I am on the SauceDemo login page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+              "location": "tests\\steps\\login.steps.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 811775899
+              "duration": 1696463200
             }
           },
           {
@@ -260,11 +260,11 @@
             "line": 30,
             "name": "I login with the username \"ERROR_USER\" and password \"PASSWORD\"",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:30"
+              "location": "tests\\steps\\login.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 244873200
+              "duration": 232354899
             }
           },
           {
@@ -273,11 +273,11 @@
             "line": 31,
             "name": "I should be redirected to the inventory page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:87"
+              "location": "tests\\steps\\login.steps.ts:87"
             },
             "result": {
               "status": "passed",
-              "duration": 7700999
+              "duration": 8809799
             }
           },
           {
@@ -286,11 +286,11 @@
             "line": 32,
             "name": "I should see the product list",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:91"
+              "location": "tests\\steps\\login.steps.ts:91"
             },
             "result": {
               "status": "passed",
-              "duration": 4514500
+              "duration": 4941399
             }
           },
           {
@@ -298,7 +298,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 703258700
+              "duration": 721593600
             }
           }
         ],
@@ -323,11 +323,11 @@
             "line": 36,
             "name": "I am on the SauceDemo login page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+              "location": "tests\\steps\\login.steps.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 788295500
+              "duration": 1405363499
             }
           },
           {
@@ -336,11 +336,11 @@
             "line": 37,
             "name": "I login with the username \"VISUAL_USER\" and password \"PASSWORD\"",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:30"
+              "location": "tests\\steps\\login.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 227281399
+              "duration": 242308800
             }
           },
           {
@@ -349,11 +349,11 @@
             "line": 38,
             "name": "I should be redirected to the inventory page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:87"
+              "location": "tests\\steps\\login.steps.ts:87"
             },
             "result": {
               "status": "passed",
-              "duration": 7980999
+              "duration": 9876900
             }
           },
           {
@@ -362,11 +362,11 @@
             "line": 39,
             "name": "I should see the product list",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:91"
+              "location": "tests\\steps\\login.steps.ts:91"
             },
             "result": {
               "status": "passed",
-              "duration": 5726300
+              "duration": 5873999
             }
           },
           {
@@ -374,7 +374,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 691344399
+              "duration": 704524300
             }
           }
         ],
@@ -399,11 +399,11 @@
             "line": 43,
             "name": "I am on the SauceDemo login page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+              "location": "tests\\steps\\login.steps.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 799876699
+              "duration": 989940800
             }
           },
           {
@@ -412,11 +412,11 @@
             "line": 44,
             "name": "I login with the username \"LOCKED_OUT_USER\" and password \"PASSWORD\"",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:30"
+              "location": "tests\\steps\\login.steps.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 215001000
+              "duration": 207980800
             }
           },
           {
@@ -425,11 +425,11 @@
             "line": 45,
             "name": "I should remain in the login page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:77"
+              "location": "tests\\steps\\login.steps.ts:77"
             },
             "result": {
               "status": "passed",
-              "duration": 5926800
+              "duration": 5337400
             }
           },
           {
@@ -438,11 +438,11 @@
             "line": 46,
             "name": "I should see an error message \"Epic sadface: Sorry, this user has been locked out.\"",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:81"
+              "location": "tests\\steps\\login.steps.ts:81"
             },
             "result": {
               "status": "passed",
-              "duration": 8869600
+              "duration": 10123600
             }
           },
           {
@@ -450,7 +450,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 693136999
+              "duration": 722787100
             }
           }
         ],
@@ -475,11 +475,11 @@
             "line": 49,
             "name": "I am on the SauceDemo login page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+              "location": "tests\\steps\\login.steps.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 810299299
+              "duration": 1079241900
             }
           },
           {
@@ -488,11 +488,11 @@
             "line": 50,
             "name": "I enter the password \"PASSWORD\"",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:67"
+              "location": "tests\\steps\\login.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 83092700
+              "duration": 89727599
             }
           },
           {
@@ -501,11 +501,11 @@
             "line": 51,
             "name": "I click the login button",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:52"
+              "location": "tests\\steps\\login.steps.ts:52"
             },
             "result": {
               "status": "passed",
-              "duration": 62694800
+              "duration": 59670599
             }
           },
           {
@@ -514,11 +514,11 @@
             "line": 52,
             "name": "I should remain in the login page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:77"
+              "location": "tests\\steps\\login.steps.ts:77"
             },
             "result": {
               "status": "passed",
-              "duration": 6833699
+              "duration": 6188999
             }
           },
           {
@@ -527,11 +527,11 @@
             "line": 53,
             "name": "I should see an error message \"Epic sadface: Username is required\"",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:81"
+              "location": "tests\\steps\\login.steps.ts:81"
             },
             "result": {
               "status": "passed",
-              "duration": 12189999
+              "duration": 10055599
             }
           },
           {
@@ -539,7 +539,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 701899299
+              "duration": 703333599
             }
           }
         ],
@@ -559,11 +559,11 @@
             "line": 57,
             "name": "I am on the SauceDemo login page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+              "location": "tests\\steps\\login.steps.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 768861099
+              "duration": 1059750400
             }
           },
           {
@@ -572,11 +572,11 @@
             "line": 58,
             "name": "I enter the username \"STANDARD_USER\"",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:57"
+              "location": "tests\\steps\\login.steps.ts:57"
             },
             "result": {
               "status": "passed",
-              "duration": 94992099
+              "duration": 105502999
             }
           },
           {
@@ -585,11 +585,11 @@
             "line": 59,
             "name": "I click the login button",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:52"
+              "location": "tests\\steps\\login.steps.ts:52"
             },
             "result": {
               "status": "passed",
-              "duration": 60227499
+              "duration": 63517500
             }
           },
           {
@@ -598,11 +598,11 @@
             "line": 60,
             "name": "I should remain in the login page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:77"
+              "location": "tests\\steps\\login.steps.ts:77"
             },
             "result": {
               "status": "passed",
-              "duration": 6632799
+              "duration": 12594200
             }
           },
           {
@@ -611,11 +611,11 @@
             "line": 61,
             "name": "I should see an error message \"Epic sadface: Password is required\"",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:81"
+              "location": "tests\\steps\\login.steps.ts:81"
             },
             "result": {
               "status": "passed",
-              "duration": 10648099
+              "duration": 8825499
             }
           },
           {
@@ -623,7 +623,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 703821899
+              "duration": 695441800
             }
           }
         ],
@@ -648,11 +648,11 @@
             "line": 65,
             "name": "I am on the SauceDemo login page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:23"
+              "location": "tests\\steps\\login.steps.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 810788300
+              "duration": 1184217200
             }
           },
           {
@@ -661,11 +661,11 @@
             "line": 66,
             "name": "I click the login button",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:52"
+              "location": "tests\\steps\\login.steps.ts:52"
             },
             "result": {
               "status": "passed",
-              "duration": 85396800
+              "duration": 77300199
             }
           },
           {
@@ -674,11 +674,11 @@
             "line": 67,
             "name": "I should remain in the login page",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:77"
+              "location": "tests\\steps\\login.steps.ts:77"
             },
             "result": {
               "status": "passed",
-              "duration": 7217599
+              "duration": 8280400
             }
           },
           {
@@ -687,11 +687,11 @@
             "line": 68,
             "name": "I should see an error message \"Epic sadface: Username is required\"",
             "match": {
-              "location": "file:\\C:\\Users\\TWeeBS\\Playwright\\saucedemo-playwright\\src\\steps\\login.steps.ts:81"
+              "location": "tests\\steps\\login.steps.ts:81"
             },
             "result": {
               "status": "passed",
-              "duration": 9201700
+              "duration": 10004399
             }
           },
           {
@@ -699,7 +699,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 714039600
+              "duration": 712315999
             }
           }
         ],
@@ -717,6 +717,6 @@
     "keyword": "Feature",
     "name": "Login to SauceDemo",
     "tags": [],
-    "uri": "src\\features\\login.feature"
+    "uri": "tests\\features\\login.feature"
   }
 ]
