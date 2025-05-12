@@ -1,0 +1,786 @@
+[
+  {
+    "description": "    As a user\n    I want to be able to add items to a cart\n    So that I can checkout them",
+    "elements": [
+      {
+        "description": "",
+        "id": "shopping;view-the-cart",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "View the cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am logged in as a Standard User",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2094989300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the inventory page",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183729500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click the cart button",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116950700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should be on the cart page",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2446399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 247499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 721608299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@shopping",
+            "line": 1
+          },
+          {
+            "name": "@standard_user",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping;add-an-item-to-the-cart",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Add an item to the cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am logged in as a Standard User",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1510386900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the inventory page",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150149299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click Add to cart button on \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69933799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click the cart button",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49818000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should see \"Sauce Labs Backpack\" in the cart",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13515800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 424300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 190759899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@shopping",
+            "line": 1
+          },
+          {
+            "name": "@standard_user",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping;add-an-item-to-the-cart",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Add an item to the cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am logged in as a Standard User",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1257710399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the inventory page",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106562599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click Add to cart button on \"Sauce Labs Bolt T-Shirt\"",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70099299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click the cart button",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61280399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should see \"Sauce Labs Bolt T-Shirt\" in the cart",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8883700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 126500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 696875399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@shopping",
+            "line": 1
+          },
+          {
+            "name": "@standard_user",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping;add-an-item-to-the-cart",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "Add an item to the cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am logged in as a Standard User",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1192922099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the inventory page",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98732299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click Add to cart button on \"Sauce Labs Fleece Jacket\"",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69742899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click the cart button",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38932399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should see \"Sauce Labs Fleece Jacket\" in the cart",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5988699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 108500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 707498700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@shopping",
+            "line": 1
+          },
+          {
+            "name": "@standard_user",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping;add-an-item-to-the-cart",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Add an item to the cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am logged in as a Standard User",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1160243599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the inventory page",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92241500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click Add to cart button on \"Sauce Labs Onesie\"",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61222900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click the cart button",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67233599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should see \"Sauce Labs Onesie\" in the cart",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6395399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 72199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 715649199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@shopping",
+            "line": 1
+          },
+          {
+            "name": "@standard_user",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping;add-an-item-to-the-cart",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Add an item to the cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am logged in as a Standard User",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1483517599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the inventory page",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114917499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click Add to cart button on \"Test.allTheThings() T-Shirt (Red)\"",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72648000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click the cart button",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55204900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should see \"Test.allTheThings() T-Shirt (Red)\" in the cart",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6743800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 87999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 711559500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@shopping",
+            "line": 1
+          },
+          {
+            "name": "@standard_user",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping;add-multiple-items-to-the-cart",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Add multiple items to the cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am logged in as a Standard User",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1217850300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the inventory page",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115794700
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "item"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Backpack"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Bolt T-Shirt"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Fleece Jacket"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Onesie"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Test.allTheThings() T-Shirt (Red)"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I click Add to cart button on multiple items:",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 252455700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I click the cart button",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63295799
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "items"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Backpack"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Bolt T-Shirt"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Fleece Jacket"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Onesie"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Test.allTheThings() T-Shirt (Red)"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should see the selected items in the cart:",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27940200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 104400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 714349599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@shopping",
+            "line": 1
+          },
+          {
+            "name": "@standard_user",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "shopping",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Shopping",
+    "tags": [
+      {
+        "name": "@shopping",
+        "line": 1
+      },
+      {
+        "name": "@standard_user",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\shopping.feature"
+  }
+]
