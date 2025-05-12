@@ -36,10 +36,18 @@ Feature: Shopping
             | Test.allTheThings() T-Shirt (Red) |
         And I click the cart button
         Then I should see the selected items in the cart:
-            | items                              |
+            | items                             |
             | Sauce Labs Backpack               |
             | Sauce Labs Bolt T-Shirt           |
             | Sauce Labs Fleece Jacket          |
             | Sauce Labs Onesie                 |
             | Test.allTheThings() T-Shirt (Red) |
 
+    Scenario: Remove an item from the cart
+        Given I have added "Sauce Labs Backpack" to the cart
+        When I click Remove button on "Sauce Labs Backpack"
+        And I click the cart button
+        Then I should not see the following items in the cart:
+            | item                |
+            | Sauce Labs Backpack |
+            | Sauce Labs Onesie   |

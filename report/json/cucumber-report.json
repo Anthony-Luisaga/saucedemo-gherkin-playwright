@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2094989300
+              "duration": 2030254899
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 183729500
+              "duration": 153019900
             }
           },
           {
@@ -41,11 +41,11 @@
             "line": 12,
             "name": "I click the cart button",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:4"
+              "location": "tests\\steps\\shopping.steps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 116950700
+              "duration": 94908699
             }
           },
           {
@@ -54,11 +54,11 @@
             "line": 13,
             "name": "I should be on the cart page",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:30"
+              "location": "tests\\steps\\shopping.steps.ts:56"
             },
             "result": {
               "status": "passed",
-              "duration": 2446399
+              "duration": 1824299
             }
           },
           {
@@ -66,7 +66,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 247499
+              "duration": 306599
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 721608299
+              "duration": 731851899
             }
           }
         ],
@@ -107,7 +107,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1510386900
+              "duration": 1458567199
             }
           },
           {
@@ -120,7 +120,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 150149299
+              "duration": 108129600
             }
           },
           {
@@ -129,11 +129,11 @@
             "line": 16,
             "name": "I click Add to cart button on \"Sauce Labs Backpack\"",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:8"
+              "location": "tests\\steps\\shopping.steps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 69933799
+              "duration": 78616700
             }
           },
           {
@@ -142,11 +142,11 @@
             "line": 17,
             "name": "I click the cart button",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:4"
+              "location": "tests\\steps\\shopping.steps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 49818000
+              "duration": 76210699
             }
           },
           {
@@ -155,11 +155,11 @@
             "line": 18,
             "name": "I should see \"Sauce Labs Backpack\" in the cart",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:34"
+              "location": "tests\\steps\\shopping.steps.ts:60"
             },
             "result": {
               "status": "passed",
-              "duration": 13515800
+              "duration": 12969800
             }
           },
           {
@@ -167,7 +167,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 424300
+              "duration": 167699
             }
           },
           {
@@ -175,7 +175,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 190759899
+              "duration": 136998600
             }
           }
         ],
@@ -208,7 +208,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1257710399
+              "duration": 1330403800
             }
           },
           {
@@ -221,7 +221,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 106562599
+              "duration": 128498299
             }
           },
           {
@@ -230,11 +230,11 @@
             "line": 16,
             "name": "I click Add to cart button on \"Sauce Labs Bolt T-Shirt\"",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:8"
+              "location": "tests\\steps\\shopping.steps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 70099299
+              "duration": 62290900
             }
           },
           {
@@ -243,11 +243,11 @@
             "line": 17,
             "name": "I click the cart button",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:4"
+              "location": "tests\\steps\\shopping.steps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 61280399
+              "duration": 47459600
             }
           },
           {
@@ -256,11 +256,11 @@
             "line": 18,
             "name": "I should see \"Sauce Labs Bolt T-Shirt\" in the cart",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:34"
+              "location": "tests\\steps\\shopping.steps.ts:60"
             },
             "result": {
               "status": "passed",
-              "duration": 8883700
+              "duration": 9668600
             }
           },
           {
@@ -268,7 +268,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 126500
+              "duration": 112299
             }
           },
           {
@@ -276,7 +276,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 696875399
+              "duration": 706803100
             }
           }
         ],
@@ -309,7 +309,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1192922099
+              "duration": 1371396099
             }
           },
           {
@@ -322,7 +322,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 98732299
+              "duration": 105859200
             }
           },
           {
@@ -331,11 +331,11 @@
             "line": 16,
             "name": "I click Add to cart button on \"Sauce Labs Fleece Jacket\"",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:8"
+              "location": "tests\\steps\\shopping.steps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 69742899
+              "duration": 71458499
             }
           },
           {
@@ -344,11 +344,11 @@
             "line": 17,
             "name": "I click the cart button",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:4"
+              "location": "tests\\steps\\shopping.steps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 38932399
+              "duration": 46964799
             }
           },
           {
@@ -357,11 +357,11 @@
             "line": 18,
             "name": "I should see \"Sauce Labs Fleece Jacket\" in the cart",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:34"
+              "location": "tests\\steps\\shopping.steps.ts:60"
             },
             "result": {
               "status": "passed",
-              "duration": 5988699
+              "duration": 5475899
             }
           },
           {
@@ -369,7 +369,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 108500
+              "duration": 70400
             }
           },
           {
@@ -377,7 +377,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 707498700
+              "duration": 721052200
             }
           }
         ],
@@ -410,7 +410,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1160243599
+              "duration": 1359532600
             }
           },
           {
@@ -423,7 +423,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 92241500
+              "duration": 109469699
             }
           },
           {
@@ -432,11 +432,11 @@
             "line": 16,
             "name": "I click Add to cart button on \"Sauce Labs Onesie\"",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:8"
+              "location": "tests\\steps\\shopping.steps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 61222900
+              "duration": 66479499
             }
           },
           {
@@ -445,11 +445,11 @@
             "line": 17,
             "name": "I click the cart button",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:4"
+              "location": "tests\\steps\\shopping.steps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 67233599
+              "duration": 62787199
             }
           },
           {
@@ -458,11 +458,11 @@
             "line": 18,
             "name": "I should see \"Sauce Labs Onesie\" in the cart",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:34"
+              "location": "tests\\steps\\shopping.steps.ts:60"
             },
             "result": {
               "status": "passed",
-              "duration": 6395399
+              "duration": 6849200
             }
           },
           {
@@ -470,7 +470,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 72199
+              "duration": 66999
             }
           },
           {
@@ -478,7 +478,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 715649199
+              "duration": 713029500
             }
           }
         ],
@@ -511,7 +511,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1483517599
+              "duration": 1280269000
             }
           },
           {
@@ -524,7 +524,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 114917499
+              "duration": 106139400
             }
           },
           {
@@ -533,11 +533,11 @@
             "line": 16,
             "name": "I click Add to cart button on \"Test.allTheThings() T-Shirt (Red)\"",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:8"
+              "location": "tests\\steps\\shopping.steps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 72648000
+              "duration": 62353999
             }
           },
           {
@@ -546,11 +546,11 @@
             "line": 17,
             "name": "I click the cart button",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:4"
+              "location": "tests\\steps\\shopping.steps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 55204900
+              "duration": 80821200
             }
           },
           {
@@ -559,11 +559,11 @@
             "line": 18,
             "name": "I should see \"Test.allTheThings() T-Shirt (Red)\" in the cart",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:34"
+              "location": "tests\\steps\\shopping.steps.ts:60"
             },
             "result": {
               "status": "passed",
-              "duration": 6743800
+              "duration": 8934199
             }
           },
           {
@@ -571,7 +571,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 87999
+              "duration": 104799
             }
           },
           {
@@ -579,7 +579,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 711559500
+              "duration": 737717699
             }
           }
         ],
@@ -612,7 +612,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1217850300
+              "duration": 1483078199
             }
           },
           {
@@ -625,7 +625,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 115794700
+              "duration": 115949599
             }
           },
           {
@@ -669,11 +669,11 @@
             "line": 30,
             "name": "I click Add to cart button on multiple items:",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:16"
+              "location": "tests\\steps\\shopping.steps.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 252455700
+              "duration": 279919999
             }
           },
           {
@@ -682,11 +682,11 @@
             "line": 37,
             "name": "I click the cart button",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:4"
+              "location": "tests\\steps\\shopping.steps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 63295799
+              "duration": 57990699
             }
           },
           {
@@ -730,11 +730,11 @@
             "line": 38,
             "name": "I should see the selected items in the cart:",
             "match": {
-              "location": "tests\\steps\\shopping.steps.ts:39"
+              "location": "tests\\steps\\shopping.steps.ts:65"
             },
             "result": {
               "status": "passed",
-              "duration": 27940200
+              "duration": 32043099
             }
           },
           {
@@ -742,7 +742,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 104400
+              "duration": 67800
             }
           },
           {
@@ -750,7 +750,141 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 714349599
+              "duration": 730533799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@shopping",
+            "line": 1
+          },
+          {
+            "name": "@standard_user",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shopping;remove-an-item-from-the-cart",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Remove an item from the cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am logged in as a Standard User",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1398365200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I am on the inventory page",
+            "match": {
+              "location": "tests\\steps\\common\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153048099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I have added \"Sauce Labs Backpack\" to the cart",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113306400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I click Remove button on \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32043200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "I click the cart button",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49974799
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "item"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Backpack"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Onesie"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I should not see the following items in the cart:",
+            "match": {
+              "location": "tests\\steps\\shopping.steps.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10266400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 157899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 715069500
             }
           }
         ],
